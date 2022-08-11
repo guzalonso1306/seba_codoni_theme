@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  console:
+    image: 083638805291.dkr.ecr.us-west-2.amazonaws.com/docker-webpack:latest
+    command: echo "What a way! Qué manera!"
+    volumes:
+      - .:/var/www/theme
